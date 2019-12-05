@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
   <head>
     <meta charset="UTF-8">
@@ -6,9 +6,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="images/favicon.png" type="image/png" />
   </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="main.js"></script>
+    <div id="header">
+      <div>
+      
+      </div>
+      <div id="logoImage">
+      
+      </div>
+    </div>
+    <div id="siriusImage">
+       
+    </div>
+    <div>
+     <h1>PERSONAJES</h1>
+    </div>
+    
+    <div id="filters"> 
+      <select id="casa" >
+        <option value="Todos">Todos</option>
+        <option value="Gryffindor">Gryffindor</option>
+        <option value="Slytherin">Slytherin</option>
+        <option value="Hufflepuff">Hufflepuff</option>
+        <option value="Ravenclaw">Ravenclaw</option>
+      </select>
+      <!--selector casa-->
+      <!--selector especie-->
+      <!--selector sexo-->
+    </div>
+    <!--división personajes-->
+    <div id="characters">
+      <div id="character1">
+          <input type="button"  id="buttonCharacter1" class="firstButton">
+          <textarea id="characteristicsCharacter1" class="characteristicsCharacters"></textarea>   
+  
+      </div>
+      <div id ="characteresFilter">
+        
+      </div>    
+      
+       </div>
+    
+
+
+
+
+
+    
+
+
+
+    <script type="module" src="./main.js"></script>
+    <script type="module" src="./data.js"></script>
   </body>
 </html>
