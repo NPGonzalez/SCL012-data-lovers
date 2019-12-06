@@ -1,16 +1,16 @@
 import POTTER from './data/potter/potter.js';
-import * as modulo from './data.js';
-
-document.getElementById('buttonCharacter1').addEventListener("click", function(){
-  let number = 0;
-  const characteristicsCharacter1 = document.getElementById("characteristicsCharacter1");
-  characteristicsCharacter1.innerHTML= modulo.showValues(POTTER,number);
-}); 
+import * as modulo  from './data.js';
+import potter from './data/potter/potter.js';
+//document.body.onload=modulo.showValues(POTTER);
 
 //Filtrado selección
-     let sortByHouse = document.getElementById('casa');
-     sortByHouse.addEventListener('change', function(){
-     // let select = document.getElementById('casa');
-      let selectedOption = document.getElementById('characteresFilter');
-      selectedOption.innerHTML= modulo.filterData(POTTER,sortByHouse.value);
-  });
+ let characterByHouse = document.getElementById('houses');
+ characterByHouse.addEventListener('change', modulo.filterData(POTTER,characterByHouse.value));
+ console.log(characterByHouse.value);
+ 
+ // let select = document.getElementById('casa');
+  //let selectedOption = document.getElementById('characteresFilter');
+  //selectedOption.innerHTML= modulo.filterData();
+
+
+
