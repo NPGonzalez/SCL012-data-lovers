@@ -13,4 +13,3 @@ import potter from './data/potter/potter.js';
   //selectedOption.innerHTML= modulo.filterData();
 
 
-
