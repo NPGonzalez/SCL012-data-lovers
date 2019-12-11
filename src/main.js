@@ -35,4 +35,3 @@ document.getElementById('results').innerHTML = modulo.dataSort(POTTER,document.g
   
 
 
-
