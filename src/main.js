@@ -33,3 +33,4 @@ document.getElementById('sortCharacters').addEventListener('change', () => {
   document.getElementById('results').innerHTML = '';
   showValues(modulo.dataSort(POTTER, document.getElementById('sortCharacters').value));
 });
+
