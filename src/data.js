@@ -22,6 +22,20 @@ export const filterDataGender = (dataForFilter, charByFilter) => {
   const charactersFiltered = dataForFilter.filter((element) => element.gender === charByFilter);
   return charactersFiltered;
 };
+
+//  FUNCIÓN PARA FILTRAR POR ASCENDENCIA
+export const filterDataAncestry = (dataForFilter, charByFilter) => {
+  if (charByFilter === 'All') {
+    return dataForFilter;
+  }
+  const charactersFiltered = dataForFilter.filter((element) => element.ancestry === charByFilter);
+  return charactersFiltered;
+};
+
+
+
+
+
 // FUNCIÓN PARA ORDENAR DATA
 export const dataSort = (data, sortByNameOrder) => {
   let ordered = [];

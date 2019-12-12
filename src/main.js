@@ -3,7 +3,7 @@ import * as modulo from './data.js';
 
 const showValues = (data) => {
   for (let i = 0; i < data.length; i += 1) {
-    document.getElementById('results').innerHTML += `<div class ="card"><ul class='lista'><li>${data[i].name}</li><li><img src = ${data[i].image}></li></ul></div>`;
+    document.getElementById('results').innerHTML += `<div class ="card"><ul class='lista'><li><button class="chButton"><img src = ${data[i].image}></button></li><li><h4>${data[i].name}</h4></li></ul></div>`;
   }
 };
 // LLAMADO FUNCIÓN MOSTRAR DATOS
@@ -26,6 +26,12 @@ document.getElementById('characterSpecies').addEventListener('change', () => {
 document.getElementById('characterGender').addEventListener('change', () => {
   document.getElementById('results').innerHTML = '';
   showValues(modulo.filterDataGender(POTTER, document.getElementById('characterGender').value));
+});
+
+// LLAMADO FUNCIÓN DE FILTRADO POR ASCENDENCIA
+document.getElementById('characterAncestry').addEventListener('change', () => {
+  document.getElementById('results').innerHTML = '';
+  showValues(modulo.filterDataAncestry(POTTER, document.getElementById('characterAncestry').value));
 });
 
 // LLAMADO FUNCIÓN PARA ORDENAR

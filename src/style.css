@@ -1,6 +1,6 @@
  body{
   background-image: url(images/fondo.jpg) ;
-  color:#FFFFFF;  
+  color:rgb(4, 3, 10);  
   display:flexbox;
 }
 
@@ -27,37 +27,44 @@ h1{
 }
 
 .card {
-  width: 20%;
-  height: 170px;
+  width: 10%;
+  height:300px;
   margin: 1em;
-  background-color: rgb(8, 8, 19);
   font-size: 110%;
   border-radius: 1em;
   display: inline-flex;
   text-align: center;
-  color:#FFFFFF;
+  color: #ffffff;
   align-content: space-between;
   align-items: baseline;
+  padding-top:0 ;
+  border: 3px solid #FFFFFF;
+  padding-left: 19px;
+  padding-right: 19px;
 }
 
 .card img{
-  width: 60%;
-  height:100px;
-  align-self: center;  
+ width: 100%;
+ height:200px;
+ padding: 0;
+ align-self: center;  
 }
-
 
 ul{
   list-style-type: none;
-  margin:10%;
-  padding:10px;
+  padding:1px;
+  padding-top:1px ;
 }
 
 #filters{
   align-content: center;
 }
 
-
+.chButton{
+margin:0;
+padding: 0;
+border:0;
+}
 
 
 
