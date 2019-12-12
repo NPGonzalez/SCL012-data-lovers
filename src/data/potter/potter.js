@@ -1,4 +1,5 @@
-export default [ {
+export default [
+  {
     name: 'Harry Potter',
     species: 'human',
     gender: 'male',
