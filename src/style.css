@@ -27,7 +27,7 @@ h1{
 }
 
 .card {
-  width: 8%;
+  width: 20%;
   height: 170px;
   margin: 1em;
   background-color: rgb(8, 8, 19);
@@ -41,8 +41,8 @@ h1{
 }
 
 .card img{
-  width: 70%;
-  height:70px;
+  width: 60%;
+  height:100px;
   align-self: center;  
 }
 
@@ -53,6 +53,9 @@ ul{
   padding:10px;
 }
 
+#filters{
+  align-content: center;
+}
 
 
 

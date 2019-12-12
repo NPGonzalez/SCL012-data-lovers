@@ -1,15 +1,24 @@
 //  FUNCIÓN PARA FILTRAR POR CASA
 export const filterDataHouse = (dataForFilter, charByFilter) => {
+  if (charByFilter === 'All') {
+    return dataForFilter;
+  }
   const charactersFiltered = dataForFilter.filter((element) => element.house === charByFilter);
   return charactersFiltered;
 };
 //  FUNCIÓN PARA FILTRAR POR ESPECIE
 export const filterDataSpecies = (dataForFilter, charByFilter) => {
+  if (charByFilter === 'All') {
+    return dataForFilter;
+  }
   const charactersFiltered = dataForFilter.filter((element) => element.species === charByFilter);
   return charactersFiltered;
 };
 //  FUNCIÓN PARA FILTRAR POR GÉNERO
 export const filterDataGender = (dataForFilter, charByFilter) => {
+  if (charByFilter === 'All') {
+    return dataForFilter;
+  }
   const charactersFiltered = dataForFilter.filter((element) => element.gender === charByFilter);
   return charactersFiltered;
 };
