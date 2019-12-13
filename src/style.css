@@ -7,6 +7,7 @@ a {
     margin: 0;
   }
   body{
+    width:100%;
     background-image: url(img/fondo.jpg) ;
     font-size: 15px;
     font-weight: 400;
@@ -403,14 +404,56 @@ ul{
   padding:1px;
   padding-top:1px ;
 }
-
 #filters{
-  height:100px;
-  align-self: center; 
-  padding-top: 50px;
-  padding-left: 30%;
-  margin-top:20px;
+  align-self: center;
 }
+
+#filters select{
+  align-self: right; 
+  padding-top: 50px;
+  background-image: linear-gradient(rgb(6, 3, 37),rgb(49, 19, 49));
+  color: #FFFFFF;
+  padding: 20px;
+  font-weight: 400;
+  font-size: 16px;
+  border: none;
+  -webkit-appearance: button;
+  appearance: button;
+  margin: 15px;
+  margin-left: 10px;
+  display: inline - flex;
+  justify-content: left;
+}
+
+.filters select option {
+    padding: 30px;
+    width:300px;
+}
+
+.filters:hover select {
+    background-color: #4F4F4F;
+}
+
+#sortCharacters{
+  margin:20px;
+  width:300px;
+}
+
+#houses{
+  margin:20px;
+  width:300px;
+}
+
+#characterSpecies{
+  margin:20px;
+  width:300px;
+}
+
+#characterAncestry{
+  margin:20px;
+  width:300px;
+}
+
 
 #charCharacters{
   width: 20%;
