@@ -6,53 +6,131 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css" />
-    <link rel="shortcut icon" href="images/favicon.png" type="image/png" />
+    <link rel="shortcut icon" href="img/logo-blanco.png" type="img/png" />
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/bluu" type="text/css"/>
   </head>
-  <body>
-    <div id="filters">
-      <!--selector orden-->
-        <select id="sortCharacters" >
-            <option value="ascendent">Ascendente</option>
-            <option value="descendent">Descendente</option>
-          </select>
-      <!--selector casa-->
-      <select id="houses" >
-        <option value="All">Todos</option>
-        <option value="Gryffindor">Gryffindor</option>
-        <option value="Slytherin">Slytherin</option>
-        <option value="Hufflepuff">Hufflepuff</option>
-        <option value="Ravenclaw">Ravenclaw</option>
-      </select>
-      <!--selector especie-->
-      <select id="characterSpecies" >
-        <option value="All">Todos</option>
-        <option value="human">Humano</option>
-        <option value="half-giant">Medio gigante</option>
-        <option value="werewolf">Hombre lobo</option>
-        <option value="cat">Cat</option>
-      </select>
-      <!--selector sexo-->
-      <select id="characterGender" >
-        <option value="All">Todos</option>
-        <option value="male">Hombre</option>
-        <option value="female">Mujer</option>
-      </select>
-        <!--selector ascendencia-->
-        <select id="characterAncestry" >
+  <body>        
+     
+    <!--menu y logo-->
+    <main id="main_menu">
+            <div class="logo_area">
+                 <a href=""><img src="img/logo-blan.png" alt="" style="width:150px; height: auto;"></a>
+            </div>
+             <div class="inner_main_menu">
+                 <ul>
+                     <li><a href="">Inicio</a></li>
+                     <li><a href="#curiosos">Datos Curiosos</a></li>
+                     <li><a href="https://www.wizardingworld.com/">Wizarding Unide</a></li>
+                     <li><a href="#personas">Personajes</a></li>   
+                 </ul>
+             </div>
+        </main>
+     
+     
+        <!--banner-->
+       <div class="contenedor">
+          
+            <div class="inner-container">
+                 <h1 >"¿Qué es la vida sin un poco de riesgo?” </h1>
+                 <h2> (Sirius Black)</h2>
+                 <!--<a class="btn"  href="https://youtu.be/3cA_EAtkaLc">Presioname</a>-->
+                 <div class="ficha-uno">
+                  <a class ="ficha" href="#personas">Personajes</a>
+                </div>
+            </div>
+      </div>
+      <!--personajes-->
+     <section class="personajes">
+        <a name="personas"></a>
+
+      <div id="filters">
+        <!--selector orden-->
+          <select id="sortCharacters" >
+              <option value="ascendent">Ascendente</option>
+              <option value="descendent">Descendente</option>
+            </select>
+        <!--selector casa-->
+        <select id="houses" label="Casas" >
           <option value="All">Todos</option>
-          <option value="half-blood">Mestizo</option>
-          <option value="muggleborn">Muggleborn</option>
-          <option value="pure-blood">Sangre pura</option>
-          <option value="squib">Squib</option>         
+          <option value="Gryffindor">Gryffindor</option>
+          <option value="Slytherin">Slytherin</option>
+          <option value="Hufflepuff">Hufflepuff</option>
+          <option value="Ravenclaw">Ravenclaw</option>
         </select>
-     </div>
-    <!--división personajes-->
+        <!--selector especie-->
+        <select id="characterSpecies" >
+          <option value="All">Todos</option>
+          <option value="human">Humano</option>
+          <option value="half-giant">Medio gigante</option>
+          <option value="werewolf">Hombre lobo</option>
+          <option value="cat">Cat</option>
+        </select>
+        <!--selector sexo-->
+        <select id="characterGender" >
+          <option value="All">Todos</option>
+          <option value="male">Hombre</option>
+          <option value="female">Mujer</option>
+        </select>
+          <!--selector ascendencia-->
+          <select id="characterAncestry" >
+            <option value="All">Todos</option>
+            <option value="half-blood">Mestizo</option>
+            <option value="muggleborn">Muggleborn</option>
+            <option value="pure-blood">Sangre pura</option>
+            <option value="squib">Squib</option>         
+          </select>
+       </div>
+      <!--división personajes-->
+  
+  <div id="results">
+  
+  </div>
+  
+     </section>
+     
+     
+     <!--fin personajes-->
+     <!--datos curiosos-->
+            <section class="datos-curiosos">
+              <a name="curiosos"></a>
+                <a class="datos"  href="">DATOS CURIOSOS</a>
+               <article class="curiosidad-uno">  
+                 <div class="img-uno">  </div>
+                 <div class="informacion-uno">
+                     <p class="titulo-uno">Portkey Games</p>
+                     
+                     <p class="relleno-uno">Warner Bros está lanzando una serie de <br>
+                       de juegos móviles y de consola bajo la <br> nueva etiqueta Portkey Games.</p>
+                     <a class="Games"  href="https://www.portkeygames.com/">VER MAS</a>
+                 </div>  
+               </article>
+               <article class="curiosidad-dos">
+                 <div class="img-dos">  </div>
+                <div class="informacion-dos">
+                  <p class="titulo-dos">Club oficial <br> de Harry <br>
+                  Potter</p>
+                  <a class="Games2"  href="https://www.wizardingworld.com/about-the-fan-club">VER MAS</a>
+                 </div> 
+                 
+               </article>      
+            </section>    
+        <!--footer-->
+        <footer id="final">
+          <div class="linea"></div>
+          <div class="pie-pagina">  
+            <a href=""><img src="img/google.png" alt="" style="width:170px; height: auto;"></a> 
+            <a href=""><img src="img/appstore.svg" alt="" style="width:145px; height: auto;" ></a>
+          </div>
 
-<div id="results">
-
-</div>
+          <div class="tex">
+             <p class="tex-uno">Derechos reservado a Nayarett  González & Marcela Quezada      -     Potter-Lab 2019</p>  
+           </div>
+        </footer>
+     
 
 <script type = "module" src ="main.js"></script>
 <script type = "module" src ="data.js"></script>    
+</div>   
+
   </body>
 </html>
