@@ -57,6 +57,8 @@ Luego se creó un wireframe interactivo - de papel -, el cual fue testeado con e
 
 ![cuatro](https://i.ibb.co/mGPw6Tz/data2-2.jpg)
 
+[Video Test de usabilidad Data Lovers - Potter ](https://clipchamp.com/watch/Untitled-Project-E7FFgd)
+
 
 **Prototipo de alta fidelidad**
 Después del análisis del prototipo de baja fidelidad y la definición de cada elemento  y su posición, se realizó el prototipo de alta fidelidad, con el que se definió el diseño.
