@@ -35,7 +35,7 @@ Esto llevó a la conclusión de que existe un déficit de páginas en donde se p
 
 
 **Criterios de aceptación**
-- Muestra peronajes y sus características de acuerdo a solicitud de usuario.
+- Muestra personajes y sus características de acuerdo a solicitud de usuario.
 - Se satisface la necesidad del usuario.
 
 **Criterios de término**
