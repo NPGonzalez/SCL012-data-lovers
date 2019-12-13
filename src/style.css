@@ -7,15 +7,16 @@ a {
     margin: 0;
   }
   body{
-    background-image: url("./img/fondo.jpg");
-    background-size: 100%;
+    background-image: url(img/fondo.jpg) ;
     font-size: 15px;
+    font-weight: 400;
     display:flexbox; 
   }
 
     /*menu*/
   .inner_main_menu{
     margin: 0 auto;
+    width: 1170px;
   }
 
   .inner_main_menu ul{
@@ -26,6 +27,7 @@ a {
     left: 50px;
     padding-right: 100px;
     padding-left: 100px;
+  
   }
 
   .inner_main_menu ul li{
@@ -75,11 +77,10 @@ a {
   
      /*banner*/
 
-.inner-container{
-    background-image: url('img/sirius.png');  
+  .inner-container{
+    background-image: url('img/sirius.png'); 
     background-position: center ;
     background-repeat: no-repeat;
-    width: 100%;
     position: relative;
     font-family: 'Bluu Next', serif;
     height: 660px;
@@ -90,6 +91,7 @@ a {
     text-align: center;
     height: 500px;
     color: #ffffff;
+    margin-right: 30px;
   }
 
   /*frase*/
@@ -101,7 +103,6 @@ a {
   }
 
   h2{
-    margin-top: -17px;
     font-family: 'Bluu Next', serif;
     font-size: 1.7em;
     text-align: center;
@@ -143,25 +144,25 @@ h3, h4{
   /*personajes*/
   .personajes{ 
     margin-top: 80px;
+    height: 3000px;
   }
 
   .ficha{
     display: inline-block;
-    width: 100%;
-    color: #fff; 
-    border-radius: 10px;
+    width: 200px; 
+    color: #fff;
+    margin-top: 70px;
+    border-radius: 32px;
     text-align: center;
     outline: none;
     text-decoration: none;
-    font-family: 'butler', serif;
+    font-family: 'sofia-pro', sans-serif;
     font-style: normal;
-    font-size: 24px;
+    font-size: 18px;
+    border: 2px solid #fff;
+    margin-left: 495px;
     padding-bottom: 10px;
     padding-top: 10px;
-    margin-top: 140px;
-    background-color:black;
-    opacity: 90%;
-    border: 1px solid #FFFFFF;
   }
   
   .ficha:hover,.ficha:active{  
@@ -179,21 +180,20 @@ h3, h4{
 
   .datos{
     display: inline-block;
-    width: 100%; 
+    width: 200px; 
     color: #fff;
-    margin-top: 10px;
-    border-radius: 10px;
+    margin-top: 70px;
+    border-radius: 32px;
     text-align: center;
     outline: none;
     text-decoration: none;
-    font-family: 'butler', serif;
+    font-family: 'sofia-pro', sans-serif;
     font-style: normal;
-    font-size: 24px;
-    background-color:black;
-    opacity: 90%;
+    font-size: 18px;
+    border: 2px solid #fff;
+    margin-left: 495px;
     padding-bottom: 10px;
     padding-top: 10px;
-    border: 1px solid #FFFFFF;
   }
   
   .datos:hover,.Games:active{  
@@ -209,7 +209,7 @@ h3, h4{
   }
  .img-uno{
     background-image: url('img/Games3.png');
-    width: 100%;
+    width: 896px;
     height: 505px;
     left: 0px;
     top: 212px;
@@ -219,29 +219,28 @@ h3, h4{
     position: absolute;
     height: 382px;
     left: 748px;
-    top: 130px;
-   
+    top: 130px;  
  }
 
  .titulo-uno{
-    height: 75px;
-    left: 786px;
-    top: 251px;
-    text-transform: uppercase;  
-    font-family: 'Bluu Next', serif;
-    color: #fff;
-    font-size: 40px;
-    margin-top: 80px;
+  height: 75px;
+  left: 786px;
+  top: 251px;
+  text-transform: uppercase;
+  font-family: 'Bluu Next', serif;
+  color: #fff;
+  font-size: 40px;
+  margin-top: 80px;
  }
 
  .relleno-uno{
-    height: 130px;
-    left: 786px;
-    margin-top: 30px;
-    font-family: 'sofia-pro', sans-serif;
-    font-style: normal;
-    font-size: 20px;
-    color: #fff;
+  height: 130px;
+  left: 786px;
+  margin-top: 30px;
+  font-family: 'sofia-pro', sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  color: #fff;
  }
 
  .Games{
@@ -257,7 +256,7 @@ h3, h4{
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 10px;
-  padding-top: 10px; 
+  padding-top: 10px;
 }
 
 .Games:hover,.Games:active{  
@@ -269,8 +268,8 @@ h3, h4{
 .curiosidad-dos{
   height: 443px;
   left: 0px;
-  top: 189px; 
-  margin-top: 65px
+  top: 189px;
+  margin-top: 65px;
 }
 
 .img-dos{
@@ -283,9 +282,9 @@ h3, h4{
 }
 
 .informacion-dos{
-position: absolute;
-width: 691px;
-height: 382px;
+  position: absolute;
+  width: 691px;
+  height: 382px;
 }
 
 .titulo-dos{
@@ -349,9 +348,9 @@ height: 382px;
   font-family: 'sofia-pro', sans-serif;
   font-size: 19px;
   margin-left: 270px;
- 
-
+  margin-left: 270px;
 }
+
 .linea{
   width: 779px;
   height: 0px;
@@ -373,8 +372,6 @@ height: 382px;
   display: -webkit-flex;
   display:inline-flex;
   justify-content: space-around;
-  margin-top: 80px;
-  height: 5291px;
 }
 
 .card {
@@ -413,6 +410,7 @@ ul{
   align-self: center; 
   padding-top: 50px;
   padding-left: 30%;
+  margin-top:20px;
 }
 
 #charCharacters{
