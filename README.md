@@ -9,7 +9,7 @@ El objetivo de esta aplicación web es proporcionar a los usuarios/jugadores un 
 
 ## Objetivo usuario/jugador 
 
-El objetivo es que el jugador de WIZARDS UNITE pueda encontrar información de cada personaje de forma útil, fácil y concisa.
+El objetivo es que el jugador de WIZARDS UNITE pueda encontrar información de cada personaje, que le sea: útil, fácil de encontrar y concisa.
 
 ## Necesidad definida
 
