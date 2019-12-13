@@ -47,7 +47,7 @@ Esto llevó a la conclusión de que existe un déficit de páginas en donde se p
 
 **Prototipo de baja fidelidad**
 
-Los primeros pasos para la realización de la aplicación web, se orientaron a reconocer qué elementos esta contendría. Una vez realizado lo anterior, se construyó un sketch para determinar la ubicación de estos elementos.
+Los primeros pasos para la realización de la aplicación web, se orientaron a reconocer los elementos que esta contendría. Una vez realizado lo anterior, se construyó un sketch para determinar la ubicación de estos elementos.
 Luego se creó un wireframe interactivo - de papel -, el cual fue testeado con el usuario.
 
 ![uno](https://i.ibb.co/YpgDrnk/data1-1.jpg)
