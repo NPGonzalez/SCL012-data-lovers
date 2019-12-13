@@ -22,9 +22,9 @@ describe('modulo.filterDataSpecies', () => {
   });
 });
 
-describe('modulo.filterDataGender', () => {
+describe('modulo.filterAncestry', () => {
   it('debería ser una función', () => {
-    expect(typeof modulo.filterDataGender).toBe('function');
+    expect(typeof modulo.filterDataAncestry).toBe('function');
   });
 
   describe('example', () => {

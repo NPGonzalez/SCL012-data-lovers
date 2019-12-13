@@ -24,12 +24,6 @@ document.getElementById('characterSpecies').addEventListener('change', () => {
   showValues(modulo.filterDataSpecies(POTTER, document.getElementById('characterSpecies').value));
 });
 
-// LLAMADO FUNCIÓN DE FILTRADO POR GÉNERO
-document.getElementById('characterGender').addEventListener('change', () => {
-  document.getElementById('results').innerHTML = '';
-  showValues(modulo.filterDataGender(POTTER, document.getElementById('characterGender').value));
-});
-
 // LLAMADO FUNCIÓN DE FILTRADO POR ASCENDENCIA
 document.getElementById('characterAncestry').addEventListener('change', () => {
   document.getElementById('results').innerHTML = '';
@@ -41,5 +35,3 @@ document.getElementById('sortCharacters').addEventListener('change', () => {
   document.getElementById('results').innerHTML = '';
   showValues(modulo.dataSort(POTTER, document.getElementById('sortCharacters').value));
 });
-
-
