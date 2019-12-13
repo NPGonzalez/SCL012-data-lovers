@@ -5,15 +5,15 @@ En este proyecto "Ficha Data Lovers - Potter", se creó una página web para los
 
 ## Objetivo de la aplicación web
 
-El objetivo de esta aplicación web es proporcionar a los usuarios/jugadores lugar  en el que puedan encontrar fácilmente los datos de sus personajes favoritos mediante los filtros sugeridos.
+El objetivo de esta aplicación web es proporcionar a los usuarios/jugadores un lugar en el que puedan encontrar fácilmente los datos de sus personajes favoritos mediante los filtros sugeridos.
 
 ## Objetivo usuario/jugador 
 
-El objetivo es que el jugador de WIZARDS UNITE es poder encontrar información de cada personaje de forma útil, fácil y concisa.
+El objetivo es que el jugador de WIZARDS UNITE pueda encontrar información de cada personaje de forma útil, fácil y concisa.
 
 ## Necesidad definida
 
-Al comenzar la investigación, se encontró a diez nuevos jugadores observándose que 8 de ellos, en los primeros 5 minutos de haber creado una cuenta revisaron su "identificación del ministerio" (ficha técnica de su personaje en el juego), en la cual se puede seleccionar la casa  a la que se desea pertenecer, escoger una profesión y la creación de una varita - la cual se puede elegir de acuerdo a su madera, núcleo y flexibilidad -. De estos ocho jugadores, seis salieron de la aplicación para buscar los información de sus personajes favoritos,  la cual está dispersa teniendo que realizar búsquedas individuales para cada selección o estaban ocultas tras largos textos de páginas biográficas. 
+Al comenzar la investigación se encontró diez nuevos jugadores, observándose que ocho de estos, en los primeros 5 minutos de haber creado una cuenta para ingresar al juego, revisaron su "identificación del ministerio" (ficha técnica de su personaje en el juego), en la cual se puede seleccionar la casa  a la que se desea pertenecer, escoger una profesión y la creación de una varita - la cual se puede elegir de acuerdo a su madera, núcleo y flexibilidad -. De estos ocho jugadores, seis salieron de la aplicación para buscar los información de sus personajes favoritos,  la cual está dispersa teniendo que realizar búsquedas individuales para cada selección o estaban ocultas tras largos textos de páginas biográficas. 
 Esto llevó a la conclusión de que existe un déficit de páginas en donde se pueda encotrar la información precisa , de fomar fácil y concisa.
 
 ## Historias de usuarios
