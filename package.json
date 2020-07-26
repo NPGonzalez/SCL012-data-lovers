@@ -25,5 +25,24 @@
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-jest": "^22.19.0"
-  }
+  },
+  "description": "En este proyecto \"Ficha Data Lovers - Potter\", se creó una página web para los jugadores de \"WIZARDS UNITE\", con el propósito de ayudarles a encontrar, en un solo lugar, los datos más importantes de los 25 personajes seleccionados; lo cual se logra a través de los distintos filtros que se proporcionan (nombres en orden alfabético - ascendente o descendente -, especie y ascendencia. Si bien es un sitio web de una sola página con un diseño simple, este se caracteriza por respetar las características gráficas de sus juegos y páginas oficiales. En comparación con otros sitios del mismo tipo, este destaca por la agilidad en el despliegue de información.",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NPGonzalez/SCL012-data-lovers.git"
+  },
+  "keywords": [
+    "Javascript",
+    "css",
+    "html5",
+    "potter"
+  ],
+  "author": "Nayarett González, Paulette Quezada",
+  "bugs": {
+    "url": "https://github.com/NPGonzalez/SCL012-data-lovers/issues"
+  },
+  "homepage": "https://github.com/NPGonzalez/SCL012-data-lovers#readme"
 }
